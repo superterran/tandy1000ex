@@ -3,7 +3,7 @@
 * [System Disks](http://www.oldskool.org/guides/tvdog/system.html)
 * [Forum Article where they got it working](https://torlus.com/floppy/forum/viewtopic.php?t=911)
 
-## Gotek SFRC922D F01
+## Gotek SFRC922D
 
 When I hold both buttons and turn on the device, the screen flashes with `u00` `126`
 `f01`
