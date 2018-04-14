@@ -5,6 +5,8 @@
 
 ## Gotek SFRC922D
 
+* [USB Floppy Format Tool for the USB Floppy Emulation V2](win32/USB_Floppy_Emulator_1.40i.exe) from [ipcas](http://www.ipcas.com/support/usb-floppy-emulation-download.html)
+
 When I hold both buttons and turn on the device, the screen flashes with `u00` `126`
 `f01`
 
