@@ -28,11 +28,38 @@ Follow the video, pretty easy to work out.
 
 Installed the FlashFloppy Firmware, works very well!
 
-## Creating IMG files
+## Creating 780K IMG files
 
 * [WinImage](http://www.winimage.com/download.htm) does the trick
 * * Select 720k images
 * * Update manifest when you copy over or else nobody will know what is what!
+
+## Creating 2.5M Image Files
+
+Technically, the system can read 2.5MB images, instead of the 780k images you typically use.
+
+* https://www.youtube.com/watch?v=Lw0JV4TypSo explains how
+
+Basically, in order for the images to work, DOS has to be loaded with a hack or two.
+
+
+### To create boot image compatible with 2.5MB disk image
+
+* Take a DOS disk from the System Disks link above...
+* Open it with imgburn, copy/inject BIOPTCH.SYS into the image
+* Create a CONFIG.SYS file with the contents of `DEVICE=BIOSPTCH.SYS` and inject into image
+* Save image as DSKA0000.img for booting 
+
+
+### To create 2.5MB images:
+* Launch win32\HxCFloppyEmulator_soft\Windows\HxCFloppyEmulator.exe
+* Select 'Disk Browser'
+* In 'DOS Floppy Disk Browser' window, select '3"5 2.50MB DSDD FAT32'
+* Drag Files In
+* Save/Export, save as DSKA0007.hfe
+
+
+
 
 
 # No Longer Relevant

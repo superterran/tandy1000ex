@@ -1,0 +1,7 @@
+     Fastdv.com speeds up the head stepping on you floppy drive. The
+speed byte is stored in byte $0A of the file. Usually DOS defaults
+the stepping speed to $DF. This program speeds it up to $EF. This can
+speed up head seeks, and sometimes allow noisy drives to run quietly.
+If you get seek errors when accessing your floppy disk after running
+this program, then you should not use this program. This program is
+not a TSR.
