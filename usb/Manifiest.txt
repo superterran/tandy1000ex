@@ -5,4 +5,5 @@ DSKA0002.img	Leisure Suit Larry
 DSKA0004.IMG	Kommander Keen 1
 DSKA0005.IMG	Lemmings
 DSKA0006.IMG	Terror in the Catacombs
-DSKA0007.IMG	SimCity
+DSKA0006.IMG	Leisure Suit Larry 2
+
