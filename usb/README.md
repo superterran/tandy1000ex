@@ -1,4 +1,4 @@
-# Disk Images
+# Tandy 1000EX Disk Images
 
 For use with GoTek Floppy Emulator running FlashFloppy
 
