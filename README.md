@@ -3,11 +3,26 @@
 * [System Disks](http://www.oldskool.org/guides/tvdog/system.html)
 * [Forum Article where they got it working](https://torlus.com/floppy/forum/viewtopic.php?t=911)
 
+Flash Firmware, Load up a USB drive with contents of usb/, slap it into your Tandy 1000EX, and play
+classic games and use deskmate. Pretty cool stuff.
+
+
 ## Flashing Firmware
+
+Purchase a Gotek SFRC922D, flash FlashFloppy Firmware on it by way of using this win32/en.stsw-stm32080.zip 
+to flash the image located in win32/flashfloppy_v0.9.24a.zip. 
+
 
 * [YouTube Video Explaining Procedure](https://www.youtube.com/watch?v=-K31S2xqZIk)
 
 Set the jumpers the way outlined in the video...
+
+```
+XX0OOO
+ OO0OO
+```
+
+Follow the video, pretty easy to work out.
 
 ## FlashFloppy
 
