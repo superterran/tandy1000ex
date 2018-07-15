@@ -2,12 +2,36 @@
 
 * [System Disks](http://www.oldskool.org/guides/tvdog/system.html)
 * [Forum Article where they got it working](https://torlus.com/floppy/forum/viewtopic.php?t=911)
+* [Manual](http://cdn1.goughlui.com/wp-content/uploads/2013/05/SFR1M44-U100K-SFR1M44-U100K-R-SFR1M44-TU100K-UM.pdf)
+* __deprecated__ [USB Floppy Format Tool for the USB Floppy Emulation V2](win32/USB_Floppy_Emulator_1.40i.exe) from [ipcas](http://www.ipcas.com/support/usb-floppy-emulation-download.html) 
 
 Flash Firmware, Load up a USB drive with contents of usb/, slap it into your Tandy 1000EX, and play
 classic games and use deskmate. Pretty cool stuff.
 
+## Gotek SFRC922D
 
-## Flashing Firmware
+Is the USB Floppy Disk Emulator
+
+### FlashFloppy
+
+Installed the FlashFloppy Firmware, works very well!
+
+### How does it work?
+
+Copy files to FAT32 USB drive in the following way:
+
+```
+DSKA0000.img  Bootable disk image
+DSKA000*.img  other images
+FF.CFG  floppy emulator configuration file
+Manifiest.txt   index of images on disk
+```
+
+Turn on Tandy with USB drive inserted, make sure 000 is selected before POST, and system will boot into DOS.
+
+Press two circle buttons to toggle prev/next image. Image switching is instant. 
+
+#### Flashing Firmware
 
 Purchase a Gotek SFRC922D, flash FlashFloppy Firmware on it by way of using this win32/en.stsw-stm32080.zip 
 to flash the image located in win32/flashfloppy_v0.9.24a.zip. 
@@ -24,9 +48,6 @@ XX0OOO
 
 Follow the video, pretty easy to work out.
 
-## FlashFloppy
-
-Installed the FlashFloppy Firmware, works very well!
 
 ## Creating 780K IMG files
 
@@ -57,22 +78,3 @@ Basically, in order for the images to work, DOS has to be loaded with a hack or 
 * In 'DOS Floppy Disk Browser' window, select '3"5 2.50MB DSDD FAT32'
 * Drag Files In
 * Save/Export, save as DSKA0007.hfe
-
-
-
-
-
-# No Longer Relevant
-
-Everything below this should probably be deleted...
-
-## Gotek SFRC922D
-
-* [USB Floppy Format Tool for the USB Floppy Emulation V2](win32/USB_Floppy_Emulator_1.40i.exe) from [ipcas](http://www.ipcas.com/support/usb-floppy-emulation-download.html)
-
-When I hold both buttons and turn on the device, the screen flashes with `u00` `126`
-`f01`
-
->  I had to select the drive A first pin position for the system to see it.
-
-* [Manual](http://cdn1.goughlui.com/wp-content/uploads/2013/05/SFR1M44-U100K-SFR1M44-U100K-R-SFR1M44-TU100K-UM.pdf)
