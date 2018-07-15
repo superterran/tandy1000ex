@@ -25,3 +25,8 @@ Set the jumpers the way outlined in the video...
 
 Installed the FlashFloppy Firmware, works very well!
 
+## Creating IMG files
+
+* [WinImage](http://www.winimage.com/download.htm) does the trick
+* * Select 720k images
+* * Update manifest when you copy over or else nobody will know what is what!
