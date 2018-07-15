@@ -16,6 +16,8 @@ Is the USB Floppy Disk Emulator
 
 Installed the FlashFloppy Firmware, works very well!
 
+* [FlashFloppy Documentation](https://github.com/keirf/FlashFloppy/wiki)
+
 ### How does it work?
 
 Copy files to FAT32 USB drive in the following way:

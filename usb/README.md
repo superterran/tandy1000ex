@@ -12,3 +12,7 @@ When adding images, please be sure to commit one file at a time and make sure th
 ## Creation
 
 View the readme in the parent directory for creation steps.
+
+## FF.CFG
+
+* [Documentation](https://github.com/keirf/FlashFloppy/wiki/FF.CFG-Configuration-File)
