@@ -49,15 +49,15 @@ XX0OOO
 Follow the video, pretty easy to work out.
 
 
-## Creating 780K IMG files
+## Creating 720K IMG files
 
 * [WinImage](http://www.winimage.com/download.htm) does the trick
 * * Select 720k images
 * * Update manifest when you copy over or else nobody will know what is what!
 
-## Creating 2.5M Image Files
+## 2.5M Disk Images
 
-Technically, the system can read 2.5MB images, instead of the 780k images you typically use.
+Technically, the system can read 2.5MB images, instead of the 720k images you typically use.
 
 * https://www.youtube.com/watch?v=Lw0JV4TypSo explains how
 
