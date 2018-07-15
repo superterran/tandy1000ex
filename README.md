@@ -14,3 +14,14 @@ When I hold both buttons and turn on the device, the screen flashes with `u00` `
 
 * [Manual](http://cdn1.goughlui.com/wp-content/uploads/2013/05/SFR1M44-U100K-SFR1M44-U100K-R-SFR1M44-TU100K-UM.pdf)
 
+
+## Flashing Firmware
+
+* [YouTube Video Explaining Procedure](https://www.youtube.com/watch?v=-K31S2xqZIk)
+
+Set the jumpers the way outlined in the video...
+
+## FlashFloppy
+
+Installed the FlashFloppy Firmware, works very well!
+
